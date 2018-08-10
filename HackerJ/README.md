@@ -1,3 +1,3 @@
 # HackerRank
 ---
-![Alt text](/resources/hacker.jpg)
+![Alt text](/resources/hackerJ.png)

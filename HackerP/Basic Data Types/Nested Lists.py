@@ -8,11 +8,7 @@
 
 
 if __name__ == '__main__':
-    students = []
-    for _ in range(int(input())):
-        name = input()
-        score = float(input())
-        students.append([name, score])
-
-    sorted_students = sorted(students, key=lambda x: (x[1], x[0]))
-    print(*(x[0] for x in sorted_students[:2]), sep='\n')
+    n = int(input())
+    students = sorted([[input(), float(input())] for _ in range(n)], key=lambda x: x[0])
+    scores = sorted(list(set([x[1] for x in students])))
+    print(*[x[0] for x in students if x[1] == scores[1]], sep='\n')

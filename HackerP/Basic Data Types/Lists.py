@@ -13,7 +13,7 @@ if __name__ == '__main__':
         cmd = s[0]
         args = s[1:]
         if cmd != 'print':
-            cmd += "("+ ",".join(args) +")"
+            cmd += "(" + ",".join(args) + ")"
             eval('l.' + cmd)
         else:
             print(l)

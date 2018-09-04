@@ -18,6 +18,8 @@ import java.util.Scanner;
 
 public class Anagrams {
 
+
+
     public static boolean isAnagram(String a, String b) {
         if (a == null || b == null || a.equals("") || b.equals(""))
             throw new IllegalArgumentException();

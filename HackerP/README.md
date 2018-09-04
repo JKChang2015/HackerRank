@@ -1,3 +1,3 @@
-# HackerRank
+# Hacker P
 ---
 ![Alt text](/resources/hackerP.jpg)

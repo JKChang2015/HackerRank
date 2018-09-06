@@ -7,11 +7,11 @@ package Strings;
  * Description: https://www.hackerrank.com/challenges/pattern-syntax-checker/problem
  * <p>
  * Input Format
- * The first line of input contains an integer , denoting the number of test cases. The next  lines contain a string
+ * The first line of input contains an integer , denoting the number of test.test cases. The next  lines contain a string
  * of any printable characters representing the pattern of a regex.
  * <p>
  * Output Format
- * For each test case, print Valid if the syntax of the given pattern is correct. Otherwise, print Invalid.
+ * For each test.test case, print Valid if the syntax of the given pattern is correct. Otherwise, print Invalid.
  * Do not print the quotes.
  */
 
